@@ -13,7 +13,7 @@
 <div id="wrap">
     <div id="header">
         <h1><a href="index.html">[ Nicolas Bonnec ]</a></h1>
-        <p class="slogan">Ingénieur systèmes embarqués</p>
+        <p class="slogan">Développeur systèmes embarqués</p>
     </div>
 
     <div id="sidebar">
@@ -28,21 +28,19 @@
         <h2>Compétences techniques</h2>
 
         <h3>Langages</h3>
-        C, Java, Pyhton (3), Lua, bash, html.
+        C, C++17, Java (pour Android), Python, Lua, bash, assembleur
 
         <h3>Logiciels / outils</h3>
         <ul>
-            <li>gcc, ddd, Cunit, arm-angstrom-gcc, bfin-linux-gcc, MPLAB,
-                makefiles,</li>
-            <li>Git, SVN,</li>
-            <li>Wireshark, ssh, boa,</li>
-            <li>BusyBox, u-boot, qconf, Scratchbox,</li>
-            <li>Altera Quartus,</li>
-            <li>Cygwin, Vim, Doxygen, ZSH.</li>
+            <li>Gestion de versions : Git, SVN, CVS,</li>
+            <li>Protocoles : DALI, I2C, SPI, Bluetooth,</li>
+            <li>IDE : Eclipse CDT, MPLAB, Android Studio, CLion,</li>
+            <li>Compilateurs : mplab-c30, gcc 7, mingw,</li>
+            <li>Outils : CATCH, Cunit, CMake, makefiles, Cygwin, Doxygen, Jenkins, BusyBox,</li>
         </ul>
 
         <h3> Matériel </h3>
-        x86, Blackfin, ARM, PIC 18F/24F, Stratix.
+        STM32F4/L0, PIC 18F/24F, x86, Blackfin, Stratix.
 
         <h3> Normes &amp; Protocoles </h3>
         DALI, I2C, SPI, UART, TCP/IP, Wifi, Bluetooth, LonWorks.
@@ -50,7 +48,7 @@
         <h3>Systèmes d'exploitation</h3>
         <ul>
             <li>Archlinux, Ubuntu, Mandriva, Windows Xp, Vista, Seven.</li>
-            <li>µClinux 2008R1.5, OpenMoko 2008.8, SHR, µC/OS-II, Ångström.</li>
+            <li>Free RTOS, µClinux 2008R1.5, OpenMoko 2008.8, SHR, µC/OS-II, Ångström.</li>
         </ul>
 
         <h3>Bureautique</h3>
@@ -66,14 +64,40 @@
         <h2>Expériences</h2>
 
         <h3>septembre 2010 - aujourd'hui : Employé chez Ausy Nantes.</h3>
-        Clients : Deltadore, Eolane.
+        Clients : Deltadore, Eolane, CP Georges Renault.
 
-        <h4>Exemples de missions : </h4>
 
-        <p>
-        Développement d'un récepteur pour chauffage thermique utilisant plusieurs protocoles de
+        <h4>
+            [CP Georges Renault] Développement d'une nouvelle gamme de produits (visseuses, meuleuses) connectés pour la marque Chicago Pneumatic.
+        </h4>
+
+        Application Android :
+        <ul>
+            <li>création et implémentation du design (Activity, Fragments, Drawer, TabLayout, …),</li>
+            <li>implémentation de la communication Bluetooth,</li>
+            <li>implémentation d’écrans permettant de paramétrer l’outil,</li>
+            <li>implémentation d’un écran radar pour détecter les outils,</li>
+            <li>utilisation de code en C++ via le NDK</li>
+            <li>tests unitaires via RoboElectric</li>
+        </ul>
+
+        Logiciel embarqué :
+        <ul>
+            <li>définition des drivers à implémenter</li>
+            <li>définition des user story</li>
+            <li>évaluation des points bloquants</li>
+            <li>réunion d’architecture</li>
+            <li>développement drivers bas niveau et couche applicative</li>
+            <li>générateur de code à partir d’un profil Bluetooth</li>
+            <li>tests unitaires grâce au framework CATCH</li>
+            <li>écriture d’un script permettant de compiler dans un environnement d’intégration continue,</li>
+            <li>configuration de Jenkins</li>
+        </ul>
+
+        <h4>
+        [Delta Dore] Développement d'un récepteur pour chauffage thermique utilisant plusieurs protocoles de
         communication : protocole radio et courant porteur propriétaires.
-        </p>
+        </h4>
         <ul>
             <li>Codage des couches basses,</li>
             <li>Codage en langage C et compilation sous MPLAB IDE,</li>
@@ -83,11 +107,11 @@
             <li>Tests unitaires.</li>
         </ul>
 
-        <p>
-        Développement de couches basses pour différentes cartes basées sur microcontrôleur PIC24F.
+        <h4>
+        [Delta Dore] Développement de couches basses pour différentes cartes basées sur microcontrôleur PIC24F.
         Ecriture de l’architecture logicielle des couches basses (entrées/sorties binaires,
         gestion LED, entrées analogiques…) et développement.
-        </p>
+        </h4>
 
         <ul>
             <li>Codage des couches basses,</li>
@@ -98,9 +122,9 @@
             <li>Tests unitaires.</li>
         </ul>
 
-        <p>
-        Développement sur carte contrôlant 4 ballasts lumière de type DALI.
-        </p>
+        <h4>
+        [Delta Dore] Développement sur carte contrôlant 4 ballasts lumière de type DALI.
+        </h4>
         <ul>
             <li> Développement d’une stack DALI pour gérer le protocole </li>
             <li> Développement de l’applicatif sur la carte </li>
@@ -130,7 +154,7 @@
 
         <dl>
             <dt>2016 : </dt>
-            <dd><strong>Projet personnel :</strong> Mediaseb, application permettant de consulter le catalogue de la médiathèque de
+            <dd><strong>Projet personnel :</strong> application Android permettant de consulter le catalogue de la médiathèque de
             Saint-Sébastien-Sur-Loire. </dd>
 
             <dt>2013 : </dt>

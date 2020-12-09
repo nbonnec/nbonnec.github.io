@@ -63,3 +63,6 @@ int main() {
 }
 {% endhighlight %}
 
+[See it on Compiler Explorer][compiler-explorer]
+
+[compiler-explorer]: https://godbolt.org/z/hcsvhc
